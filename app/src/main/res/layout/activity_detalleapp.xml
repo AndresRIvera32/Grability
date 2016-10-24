@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tx6"
+        android:maxLines = "300"
+        android:scrollbars = "vertical"
+        android:height="180dp"
+        android:width="300dp"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/botonact2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/alert_light_frame"
+        android:layout_marginTop="32dp"
+        android:id="@+id/imgV"
+        android:minHeight="108dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:maxHeight="100dp"
+        android:maxWidth="100dp"
+        android:minWidth="100dp" />
+
+    <Button
+        android:text="Regresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:id="@+id/botonact2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textvw"
+        android:width="120dp"
+        android:height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/imgV"
+        android:layout_alignLeft="@+id/tx6"
+        android:layout_alignStart="@+id/tx6"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp" />
+
+    <TextView
+        android:text="Precio:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textvw"
+        android:layout_toRightOf="@+id/textvw"
+        android:layout_toEndOf="@+id/textvw"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/textView9" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tx10"
+        android:width="50dp"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignRight="@+id/tx6"
+        android:layout_alignEnd="@+id/tx6"
+        android:height="20dp" />
+
+</RelativeLayout>
